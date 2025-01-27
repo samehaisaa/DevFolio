@@ -1,5 +1,8 @@
 {
   "expo": {
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "name": "PortfolioReact",
     "slug": "PortfolioReact",
     "version": "1.0.0",
@@ -19,10 +22,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.samehaissa.PortfolioReact"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "298b48a4-b7a8-4aca-879f-77f53d5e0235"
+      }
+    },
+    "owner": "samehaissa"
   }
 }
